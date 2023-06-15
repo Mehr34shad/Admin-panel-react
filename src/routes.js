@@ -36,13 +36,6 @@ var routes = [
     layout: "/admin",
   },
   {
-    path: "/index",
-    name: "Show List",
-    icon: "fa fa-list-ul text-red",
-    component: <Index />,
-    layout: "/admin",
-  },
-  {
     path: "/icons",
     name: "Icons",
     icon: "ni ni-planet text-blue",
@@ -58,7 +51,7 @@ var routes = [
   },
   {
     path: "/tables",
-    name: "Tables",
+    name: "Show Lists",
     icon: "ni ni-bullet-list-67 text-red",
     component: <Tables />,
     layout: "/admin",
