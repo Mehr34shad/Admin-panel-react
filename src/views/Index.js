@@ -315,8 +315,11 @@ const Index = (props) => {
             </Card>
           </Col>
         </Row>
+        <Row className="mt-5">
         <Calender />
         <AnalogClock />
+
+        </Row>
       </Container>
     </>
   );
