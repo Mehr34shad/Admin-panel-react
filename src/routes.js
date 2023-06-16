@@ -15,21 +15,21 @@ var routes = [
   },
   {
    
-    path: "/index",
+    path: "/1",
     name: "Customers",
     icon: "fa fa-users text-teal",
     component: <Index />,
     layout: "/admin",
   },
   {
-    path: "/index",
+    path: "/2",
     name: "Orders",
     icon: "ni ni-delivery-fast text-success",
     component: <Index />,
     layout: "/admin",
   },
   {
-    path: "/index",
+    path: "/3",
     name: "Users",
     icon: "ni ni-single-02 text-gray-dark",
     component: <Index />,
